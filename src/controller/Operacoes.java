@@ -14,10 +14,6 @@ public class Operacoes {
 		
 		double tempoInicial = System.nanoTime();
 		
-		for (int i = 0; i < vetor.length; i++) {
-            int valor = vetor[i];
-        }
-		
 		double tempoFinal = System.nanoTime();
 		double tempoTotal = tempoFinal - tempoInicial;
 		//tempoTotal nS - 10^-9 s
@@ -28,3 +24,4 @@ public class Operacoes {
 
 	}
 }
+
